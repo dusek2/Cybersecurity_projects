@@ -1,2 +1,3 @@
 # codepath_homework
-Homework for Codepath Cybersecurity course
+
+See branches for assignments.
