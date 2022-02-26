@@ -19,6 +19,7 @@ Save the file as **screenfetch.gif**.
 
 ### Installing VirtualBox and Kali
 Kali already installed and set up in VirtualBox
+<img src="kaliInstalled.png" alt="Running screenfetch">
  
 ### Running screenfetch
 <img src="screenfetch.gif" alt="Running screenfetch">
