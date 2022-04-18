@@ -6,79 +6,55 @@ Time spent: 6 hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
+### Setting up pentesting enviroment 
+
+ - using
+     - Docker
+     - WordPress
+
+<img src="1_wpscan.gif" alt="WP Scan on localhost">
+
+### 1. Arbitrary File Upload
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: File upload
+    - Tested in version: 3.1.3
+    - Fixed in version: 3.1.4
+  - [ ] Steps to recreate: Adding Reflex Gallery and running exploit with Metasploit
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 2. (Required) Vulnerability Name or ID
+    - [Link 1](https://wpscan.com/vulnerability/7867)
+### 2. SQL Injection via WP_Query
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: SQLI
+    - Tested in version: 4.1.0
+    - Fixed in version: 4.1.34
+  - [ ] Steps to recreate: Using sqlmap to find and exploiting SQLI
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 3. (Required) Vulnerability Name or ID
+    - [Link 1](https://wpscan.com/vulnerability/7f768bcf-ed33-4b22-b432-d1e7f95c1317)
+### 3. XSS via Post Slugs
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.1.0
+    - Fixed in version: 4.1.34
+  - [ ] Steps to recreate: Affecting high privilege using low privilage accounts
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Link 1](https://wpscan.com/vulnerability/dc6f04c2-7bf2-4a07-92b5-dd197e4d94c8)
 
 ## Assets
 
-List any additional assets, such as scripts or files
+sqlmap
+wpscan
+kali
+metasploit 
 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+- [WP Scan]https://wpscan.com/
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+GIFs created with [ScreenToGif](https://www.screentogif.com/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+This challenge brought great challange in terms of learning how to set up docker containters and learning how to find and exploit vulnerabilities 
 
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
