@@ -35,7 +35,7 @@ https://github.com/dusek2/codepath_homework/blob/1096fa6a0d0aa4079be6b99897bd602
 No challenges encountered 
 Most attacks come from IPs in China, South Africa Russia and USA
 
-<img src="top-attacks.gif">
+<img src="top-attacks.png">
 
 Payloads captured:
 
