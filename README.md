@@ -40,4 +40,3 @@ Most attacks come from IPs in China, South Africa Russia and USA
 Payloads captured:
 
 <img src="payloads.gif">
-payloads.gif
