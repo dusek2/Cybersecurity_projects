@@ -1,6 +1,6 @@
 #### Cybersecurity_projects
 
-See branches for assignments.
+See branches for projects.
 
 ### Virtual Box Kali Linux
 
