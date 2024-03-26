@@ -1,4 +1,4 @@
-#### Cybersecurity_projects
+#### Cybersecurity projects
 
 See branches for projects.
 
